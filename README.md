@@ -7,7 +7,7 @@ In 2017, out of the 12 stocks that were assessed for Total Daily Volume and Retu
 <img width="377" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/86024512/124503848-55d73e80-dd94-11eb-861f-139c0ee25eee.png">
 <img width="370" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/86024512/124503855-596ac580-dd94-11eb-822c-ba6b6001268c.png">
 
-######The refractored code is as follows:
+###### The refractored code is as follows:
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
