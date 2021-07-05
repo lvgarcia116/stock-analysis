@@ -3,8 +3,8 @@
 The purpose of this project was to compare the stock performance bof 12 stocks in 2017 and 2018. As well as refactor code from a previous model and loop through all the data to collect the same information from the previous model. By refactoring the code, the VBA script will run faster. The purpose of refactoring code is to  make the code more efficient by taking less steps, using less memory, or improving the lgoic to make it easer for future users to read. This project reviews 12 stock prices from 2017 and 2018.
 ## Results
 In 2017, out of the 12 stocks that were assessed for Total Daily Volume and Return, TERP was the only stock that had a negative return, the rest of the stocks had a positive rate of return. As for the stocks in 2018, Enphase Energy (ENPH) and Sunrun (RUN) were the only stocks with a positive return. The yearly return is the difference in price from the bgeinning of the year to the end of the year. The original script for 2017 stocks analysis ran in 0.63 seconds where as the refractored script ran in 0.13 seconds. The 2018 stocks original script ran in 0.64 seconds and the refractored script ran in 0.11 seconds. The images reflecct the the refractored script times. 
-<img width="1440" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/86024512/124503469-a0a48680-dd93-11eb-9193-de0c933b8f5b.png">
-<img width="1440" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/86024512/124503473-a39f7700-dd93-11eb-96ba-2072088cdfaf.png">
+<img width="377" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/86024512/124503848-55d73e80-dd94-11eb-861f-139c0ee25eee.png">
+<img width="370" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/86024512/124503855-596ac580-dd94-11eb-822c-ba6b6001268c.png">
 The refractored code is as follows:Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
