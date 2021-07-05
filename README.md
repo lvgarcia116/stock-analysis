@@ -9,7 +9,7 @@ In 2017, out of the 12 stocks that were assessed for Total Daily Volume and Retu
 
 ###### The refractored code is as follows:
 
-Sub AllStocksAnalysisRefactored()
+    Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
 
