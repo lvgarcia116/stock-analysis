@@ -53,14 +53,14 @@ In 2017, out of the 12 stocks that were assessed for Total Daily Volume and Retu
     tickerIndex = 0
 
     '1b) Create three output arrays
-   Dim tickerVolumes(12) As Long
-   Dim tickerStartingPrices(12) As Single
-   Dim tickerEndingPrices(12) As Single
+    Dim tickerVolumes(12) As Long
+    Dim tickerStartingPrices(12) As Single
+    Dim tickerEndingPrices(12) As Single
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero.
     For i = 0 To 11
     tickerVolumes(i) = 0
-   Next i
+    Next i
         
     ''2b) Loop over all the rows in the spreadsheet.
     For i = 2 To RowCount
@@ -101,8 +101,8 @@ In 2017, out of the 12 stocks that were assessed for Total Daily Volume and Retu
         
         Worksheets("All Stocks Analysis").Activate
         Cells(4 + i, 1).Value = tickers(i)
-Cells(4 + i, 2).Value = tickerVolumes(i)
-Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
+    Cells(4 + i, 2).Value = tickerVolumes(i)
+    Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
         
     Next i
     
@@ -134,4 +134,4 @@ Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub
+    End Sub
